@@ -10,9 +10,10 @@
 
 @import url('./_media.css'); */
 
-/* For GitHub Pages */
-@import url('/Architect/styles/_vars.css');
-@import url('/Architect/styles/_fonts.css');
-@import url('/Architect/styles/_main.css');
-@import url('/Architect/styles/_light.css');
-@import url('/Architect/styles/_media.css');
+
+@import url('_vars.css');
+@import url('_fonts.css');
+@import url('_main.css');
+@import url('_light.css');
+
+@import url('_media.css');
