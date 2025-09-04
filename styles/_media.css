@@ -1,0 +1,55 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1399.98px) {}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1199.98px) {}
+
+/* md <= Large (lg) */
+@media (max-width : 991.98px) {
+    .head-slider .swiper-slide {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+
+/* sm <= Medium (md) */
+@media (max-width : 767.98px) {
+    .main-menu ul {
+        max-width: 155px;
+    }
+
+    .main-menu ul a {
+        padding: 0 5px;
+    }
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 575.98px) {
+    .main-menu ul {
+        max-width: 100px;
+    }
+
+    .head-wrapper {
+        padding-top: 5px;
+        padding-bottom: 0;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .head-slider__left {
+        padding-left: 0;
+    }
+
+    .head-slider__more a::before {
+        left: 0;
+    }
+
+    .head-slider__more a {
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,39 @@
+.light .top-line {
+    border-bottom: #e5e5e5 2px solid;
+}
+
+.light .logo {
+    background-image: url(../assets/logos/logo-light.svg);
+}
+
+.light .main-menu a {
+    color: #777;
+}
+
+.light .main-menu a:hover {
+    color: var(--body-color);
+}
+
+.light .main-menu li.active a {
+    color: var(--body-color);
+}
+
+.light .menu-btn:hover div {
+    background-color: var(--body-color);
+}
+
+.light .menu-btn.active div {
+    background-color: var(--body-color);
+}
+
+.light .icon-font-light::before {
+    content: '\E802';
+}
+
+.light .head-slider__more a:hover {
+    color: var(--body-color);
+}
+
+.light .head-slider__more a:hover::before {
+    background-color: var(--body-color);
+}
