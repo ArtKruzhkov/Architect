@@ -1,11 +1,18 @@
-@import url('./_vars.css');
+/* @import url('./_vars.css'); */
 
 @import url('../vendor/global-reset/global-reset.css');
 @import url('../vendor/grid-system/grid-system.css');
 @import url('../vendor/swiper/swiper-bundle.min.css');
 
-@import url('./_fonts.css');
+/* @import url('./_fonts.css');
 @import url('./_main.css');
 @import url('./_light.css');
 
-@import url('./_media.css');
+@import url('./_media.css'); */
+
+/* For GitHub Pages */
+@import url('/Architect/styles/_vars.css');
+@import url('/Architect/styles/_fonts.css');
+@import url('/Architect/styles/_main.css');
+@import url('/Architect/styles/_light.css');
+@import url('/Architect/styles/_media.css');
