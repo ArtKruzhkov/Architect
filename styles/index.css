@@ -11,9 +11,9 @@
 @import url('./_media.css'); */
 
 
-@import url('_vars.css');
-@import url('_fonts.css');
-@import url('_main.css');
-@import url('_light.css');
+@import url('vars.css');
+@import url('fonts.css');
+@import url('main.css');
+@import url('light.css');
 
-@import url('_media.css');
+@import url('media.css');
