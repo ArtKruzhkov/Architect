@@ -27,10 +27,6 @@ A responsive and modern header component developed for an architecture and inter
 - Theme Switcher  
 - PerfectPixel (for pixel-perfect layout validation)
 
-## 📷 Screenshots
-
-_Add screenshots here if you have any._
-
 ## 🚀 Getting Started
 
 To run the project locally:
